@@ -15,7 +15,7 @@ public class ClientCreditPaymentService {
         System.out.println("Период в месяцах, на который вы взяли кредит: ");
         int c = sc.nextInt();
 
-        System.out.println("Ежемесячный платеж в вашем случае составит: ");
+        System.out.println("Ежемесячный платеж по кредиту, составит: ");
         int clientPayment = (int) creditPaymentService.creditMonthPayment(a, b, c);
         System.out.println(clientPayment);
         System.out.println(" ");
