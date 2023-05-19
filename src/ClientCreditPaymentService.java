@@ -12,7 +12,7 @@ public class ClientCreditPaymentService {
         int a = sc.nextInt();
         System.out.println("Годовую процентную ставку: ");
         int b = sc.nextInt();
-        System.out.println("Период в месяцах на который вы взяли кредит: ");
+        System.out.println("Период в месяцах, на который вы взяли кредит: ");
         int c = sc.nextInt();
 
         System.out.println("Ежемесячный платеж в вашем случае составит: ");
