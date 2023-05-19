@@ -18,7 +18,6 @@ public class ClientCreditPaymentService {
         System.out.println("Ежемесячный платеж по кредиту, составит: ");
         int clientPayment = (int) creditPaymentService.creditMonthPayment(a, b, c);
         System.out.println(clientPayment);
-        System.out.println(" ");
 
 
     }
